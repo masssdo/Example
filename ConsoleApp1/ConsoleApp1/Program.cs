@@ -11,8 +11,11 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("CIAO A TUTTI");
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i <= 100; i++)
             {
+                if(i%10 == 0){
+                Console.WriteLine($"Ciao a persona speciale {i}");
+                }
                 Console.WriteLine($"Ciao a persona {i}");
             }
             Console.ReadKey();
